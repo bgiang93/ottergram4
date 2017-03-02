@@ -66,7 +66,6 @@ function addKeyPressHandler() {
   'use strict';
   document.body.addEventListener('keyup', function (event) {
     event.preventDefault();
-    console.log(event.keyCode);
     if (event.keyCode === ESC_KEY) {
       hideDetails();
     }
